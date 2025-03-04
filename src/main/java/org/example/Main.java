@@ -2,6 +2,8 @@ package org.example;
 
 // 문제 : a와 b가 가지고 있는 값을 서로 뒤바꿔주세요.
 
+// 문제 : a와 b가 가지고 있는 값을 서로 뒤바꿔주세요. // 조건 : 숫자와 사칙연산 사용 금지
+
 class Main {
     public static void main(String[] args) {
         // `int a` => a라는 이름의 변수(즉 공간)을 만든다.
@@ -21,7 +23,7 @@ class Main {
 
         // 여기서 부터
         int c =0;
-        c = a;
+        c =a;
         a = b;
         b = c;
         // 여기까지 수정 가능
