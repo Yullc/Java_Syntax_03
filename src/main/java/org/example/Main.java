@@ -22,7 +22,7 @@ class Main {
         System.out.println("b : " + b);
 
         // 여기서 부터
-        int c =0;
+        int c ;
         c =a;
         a = b;
         b = c;
