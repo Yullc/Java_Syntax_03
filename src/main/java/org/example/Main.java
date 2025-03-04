@@ -9,12 +9,23 @@ package org.example;
 
 class Main {
     public static void main(String[] args) {
+        
         int age = 19; // 이 값을 바꿔가면서 실행해보세요.
         System.out.println("당신의 나이는 " + age + "살 입니다.");
 
+        if (age <= 19) {
+            System.out.println("할인 대상입니다.");
+        } else if (age >= 60) {
+            System.out.println("할인 대상입니다.");
+        } else
+            if (age > 19) {
+            if (age < 60) {
+                System.out.println("할인 대상이 아닙니다.");
+            }
+        }
 
 
-//        7.
+//        6.
 //        if(age<=19||age>=60){
 //            System.out.println("할인 대상입니다.");
 //
@@ -23,13 +34,6 @@ class Main {
 //            System.out.println("할인 대상이 아닙니다.");
 //        }
 
-//6.
-//        if(age<=19&&age>=60){
-//            System.out.println("할인 대상입니다.");
-//        }
-//       else {
-//            System.out.println("할인 대상이 아닙니다.");
-//        }
 
 //        5.
 //        if(age<10){
