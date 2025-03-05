@@ -7,17 +7,13 @@ package org.example;
 
 class Main {
     public static void main(String[] args) {
-       int i=1;
-
-
-       while(i<=10){
-           int j=1;
-               while(j<=3){
-                   System.out.println("j="+j);
-                   j++;
-               }
-               i++;
-       }
+        int i=10;
+        for( i=1; i<=10; i++){
+            int j=3;
+            for(j=1; j<=3; j++){
+                System.out.println(j);
+            }
+        }
     }
 }
 
@@ -73,4 +69,59 @@ class Main {
 //        }
 //
 //        System.out.println(sum);
+
+//7.    int i=1;
+//
+//       while(i<=10){
+//        int j=1;
+//        while(j<=3){
+//            System.out.println("j="+j);
+//            j++;
+//        }
+//        i++;
+//    }
+//
+
+//for1.  for(int i=1; i<=5; i++){
+//        System.out.println(i);
+//
+//    }
+
+//for2. for(int i=-100; i<=25; i++){
+//            System.out.println(i);
+//
+//        }
+//    }
+
+//for3.  for(int i=1000; i>=1; i--){
+//            System.out.println("8x"+i+"= "+i*8);
+//
+//        }
+//    }
+
+//for4.for(int i=1000; i>=-500; i--){
+//            System.out.println("8x"+i+"= "+i*8);
+//
+//        }
+
+//for5. int sum=0;
+//        for(int i=1; i<=5; i++){
+//            sum=sum+i;
+//        }
+//        System.out.println("sum = " + sum);
+
+//for6.   int sum=0;
+//        for(int i=-100; i<=25; i++){
+//            sum=sum+i;
+//        }
+//        System.out.println("sum = " + sum);
+
+//for7.   int i=10;
+//        for( i=1; i<=10; i++){
+//            int j=3;
+//            for(j=1; j<=3; j++){
+//                System.out.println(j);
+//            }
+//        }
+
 
