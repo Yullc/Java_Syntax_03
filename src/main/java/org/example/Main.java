@@ -7,204 +7,215 @@ package org.example;
 
 class Main {
     public static void main(String[] args) {
-        int dan = 1;
 
-        // 수정가능지역 시작
-        int i =1;
+int dan = 8;
 
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
+        int i = 1;
 
-        dan++;
-        i=1;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        dan++;
-        i=1;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
+        while(1<=100) {
+            System.out.println(dan + "*" + i + "=" + dan * i);
+            i++;
+        }
 
-        dan++;
-        i=1;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-
-        dan++;
-        i=1;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-
-        dan++;
-        i=1;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-
-        dan++;
-        i=1;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-
-        dan++;
-        i=1;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-
-        dan++;
-        i=1;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-        i++;
-        System.out.println(dan + " * " + i + " = " + dan * i) ;
-
-
-
-
-        // 수정가능지역 끝
-
-        // 출력
-    /*
-    8 * 1 = 8
-    8 * 2 = 16
-    8 * 3 = 24
-    8 * 4 = 32
-    8 * 5 = 40
-    8 * 6 = 48
-    8 * 7 = 56
-    8 * 8 = 64
-    8 * 9 = 72
-    */
     }
 }
+
+
+
+//int dan=8;
+//
+//    for(int i=1; i<1001; i++){
+//
+//        System.out.println(dan+"x "+i+"="+dan*i);
+
+
+
+
+//        int dan = 1;
+//
+//        // 수정가능지역 시작
+//        int i =1;
+//
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//
+//        dan++;
+//        i=1;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        dan++;
+//        i=1;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//
+//        dan++;
+//        i=1;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//
+//        dan++;
+//        i=1;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//
+//        dan++;
+//        i=1;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//
+//        dan++;
+//        i=1;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//
+//        dan++;
+//        i=1;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//
+//        dan++;
+//        i=1;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+//        i++;
+//        System.out.println(dan + " * " + i + " = " + dan * i) ;
+
+
+
+
+
+
+
