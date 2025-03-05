@@ -4,20 +4,19 @@ import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
 
-        for(int m=1; m<=b; m++){
-            for(int n=1; n<=a-1; n++){
-                System.out.print("*");
+        int rows = 4;
+
+        for (int i = 1; i <= rows; i++) {
+            for (int k = 1; k <= i; k++) {
+                System.out.print("* ");
             }
-            System.out.println("*");
+            System.out.println();
         }
 
     }
 }
-
+//rows는 4행을 말 하는거고 첫번째 i를 실행해 k문으로 들어가 별 하나 찍고 k증가 시키고줄 바꾼후
 
 
 //1.
