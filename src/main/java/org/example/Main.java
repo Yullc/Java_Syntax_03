@@ -1,19 +1,20 @@
 package org.example;
 
-// 문제 : 아래와 같이 출력해주세요.
-
-// 문제 : 아래와 같이 출력해주세요.
-// 문제 : 2부터 9까지의 숫자를 사용하지 않고 구구단 출력을 완성 해주세요.
+import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
-        int i=10;
-        for( i=1; i<=10; i++){
-            int j=3;
-            for(j=1; j<=3; j++){
-                System.out.println(j);
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        for(int m=1; m<=b; m++){
+            for(int n=1; n<=a-1; n++){
+                System.out.print("*");
             }
+            System.out.println("*");
         }
+
     }
 }
 
