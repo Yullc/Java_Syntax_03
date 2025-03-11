@@ -1,32 +1,35 @@
 package org.example;
+//문제 - 자동차 설계도를 만들어주세요.
+//문제 - 자동차 객체를 담을 변수를 만들어주세요.
+//문제 - 자동차 객체를 만들고 변수에 담아주세요.
+//문제 - 자동차 객체마다 서로 다른 최고속력를 가지도록 해주세요.
+//문제 - 1개의 자동차가 3번 달리게 해주세요.
+//문제 - 객체를 사용하지 않고 두번째 플레이어를 만들어주세요.
+//문제 - 3개의 자동차가 각각 1번씩 달리게 해주세요.
+//문제 - 각각의 자동차가 서로 다른 최고속력으로 달리게 해주세요.
+//문제 - 번호가 다른 각각의 자동차가 서로 다른 최고속력으로 달리게 해주세요.
 
+
+import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
-        사람 a =new 사람();
-        a.age =23;
-        a.name ="김철수";
-        a.isMarried=true;
-        a.introduce();
-
-        사람 b =new 사람();
-        b.age=24;
-        b.name="박영수";
-        b.isMarried = true;
-        b.introduce();
+        //1
+        자동차 a = new 자동차();
+        a.달리다();
+        //2
+        new 자동차().달리다();
+        //3
+        자동차.달리다();
     }
 }
-class 사람{
-    int age;
-    String name;
-    boolean isMarried;
 
-    void introduce(){
-        System.out.println("==자기소개==");
-        System.out.println("나이: "+this.age);
-        System.out.println("이름: "+this.name);
-        System.out.println("결혼여부: " +this.isMarried);
-
+class 자동차 {
+    static void 달리다() {
+        System.out.println("달리다");
     }
 
+
 }
+
+//static = 객체화 하지않겠다. 설계도 차원에서 기능만 뽑아서 쓰고싶어
