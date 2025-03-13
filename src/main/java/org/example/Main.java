@@ -18,6 +18,8 @@ public class Main {
 }
 class 사람{
 
+    int 학번;
+    boolean 출결;
 }
 class 로봇{
     public static int get정수() {
@@ -31,19 +33,26 @@ class 로봇{
         return null;
     }
     public static 사람 get사람2() {
-        return null;
-    }
-    public static 사람 get사람5(int i, boolean a){
-        return null;
+        return new 사람();
     }
 
     public static 사람 get사람3() {
-        return null;
+        사람 a사람 = null;
+        return a사람;
     }
+
     public static 사람 get사람4() {
-        return null;
+        사람 a사람 = new 사람();
+        return a사람;
     }
-    public static 사람 get사람6(int i, boolean a) {
-        return null;
+    public static 사람 get사람5(int 학번, boolean 출결){
+        사람 a사람 = new 사람();
+        a사람.학번 = 학번;
+        a사람.출결 = 출결;
+        return a사람;
+    }
+
+    public static void get사람6(int i, boolean a) {
+
     }
 }
