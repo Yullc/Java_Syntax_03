@@ -7,18 +7,20 @@ public class  test {
 
         Solution s = new Solution();
 
-        System.out.println(Arrays.toString(s.solution(9, 2, 1, 3)));
+        System.out.println(s.solution(2,10));
     }
 
 
 }
 class Solution {
-    public int[] solution(int numer1, int denom1, int numer2, int denom2) {
-        int[] arr = new int[] {numer1,denom1,numer2,denom2};
-        int a =arr[0]+arr[2];
-        int b =arr[1]+arr[3];
-        int[] num = new int[] {a,b};
+    public int solution(int n, int t) {
+        int answer = 1;
+        for (int i=1; i<=t+1; i++){
 
-        return num;
+            answer=answer*n;
+
+        }
+
+        return answer;
     }
 }
