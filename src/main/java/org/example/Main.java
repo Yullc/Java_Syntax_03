@@ -26,35 +26,26 @@ class Main {
         // 저는 3번, 임꺽정, 30살 입니다.
     }
 }
-class 사람인력관리소 {
-    사람 a사람인력관리소;
-
+class 사람 {
     String name;
     int age;
-    void add사람(String name, int age){
-        this.age = age;
-        this.name= name;
-
-        System.out.println("나이가 " +this.age+"인 1번째 사람"+this.name+"이 추가되었습니다");
+    int count=0;
+    public 사람 get사람(int count) {
+        return new 사람();
+    }
+    void 자기소개(){
+        System.out.println("저는"+count+"번, "+this.name+", "+this.age+"살 입니다.");
     }
 
-    public 사람인력관리소(int age, String name) {
+}
+class 사람인력관리소 extends 사람{
+    
+    void add사람(String name, int age){
+
         this.age = age;
         this.name = name;
+        System.out.println("나이가"+this.age+"살인"+count+"번째 사람("+this.name+")이 추가되었습니다.");
     }
 
 
-    public 사람 get사람(int i) {
-
-        return ;
-    }
-}
-class 사람 extends {
-    사람 a사람인력관리소;
-
-   
-
-    void 자기소개(){
-
-     }
 }
