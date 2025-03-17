@@ -1,4 +1,10 @@
 package org.example;
+// 문제 : 아래가 실행되도록 해주세요.
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 class Main {
     public static void main(String[] args) {
@@ -10,6 +16,10 @@ class Main {
         // 나이가 20살인 2번째 사람(홍길동)이 추가되었습니다.
         a사람인력관리소.add사람("임꺽정", 30);
         // 나이가 30살인 3번째 사람(임꺽정)이 추가되었습니다.
+        a사람인력관리소.add사람("임꺽정22", 32);
+        // 나이가 32살인 4번째 사람(임꺽정22)이 추가되었습니다.
+        a사람인력관리소.add사람("임꺽정33", 35);
+        // 나이가 35살인 5번째 사람(임꺽정33)이 추가되었습니다.
 
         사람 a사람1 = a사람인력관리소.get사람(1);
         a사람1.자기소개();
@@ -22,14 +32,22 @@ class Main {
         사람 a사람3 = a사람인력관리소.get사람(3);
         a사람3.자기소개();
         // 저는 3번, 임꺽정, 30살 입니다.
+
+        사람 a사람4 = a사람인력관리소.get사람(4);
+        a사람4.자기소개();
+        // 저는 4번, 임꺽정22, 32살 입니다.
+
+        사람 a사람5 = a사람인력관리소.get사람(5);
+        a사람5.자기소개();
+        // 저는 5번, 임꺽정33, 35살 입니다.
     }
 }
 
 class 사람인력관리소 {
-    사람 a사람0;
-    사람 a사람1;
-    사람 a사람2;
-    사람 a사람3;
+    // 변수 여러개
+    //    사람[] 사람들 = new 사람[5];
+    List<사람> 사람들 = new ArrayList<>();
+ //   Map 사람들 = new HashMap<>();
 
     int 마지막_사람의_번호 = 0;
 
@@ -40,31 +58,18 @@ class 사람인력관리소 {
         a사람.이름 = 이름;
         a사람.나이 = 나이;
 
-        if (번호 == 1) {
-            a사람0 = a사람;
-        } else if (번호 == 2) {
-            a사람1 = a사람;
-        } else if (번호 == 3) {
-            a사람2 = a사람;
-        } else if (번호 == 4) {
-            a사람3 = a사람;
-        }
+//        사람들[번호 - 1] = a사람;
+//        사람들.add(a사람);
+        사람들.add(번호, a사람);
 
         System.out.printf("나이가 %d살인 %d번째 사람(%s)이 추가되었습니다.\n", 나이, 번호, 이름);
         마지막_사람의_번호++;
     }
 
     사람 get사람(int 번호) {
-        if (번호 == 1) {
-            return a사람0;
-        } else if (번호 == 2) {
-            return a사람1;
-        } else if (번호 == 3) {
-            return a사람2;
-        } else if (번호 == 4) {
-            return a사람3;
-        }
-        return null;
+//        return 사람들[번호 - 1];
+//        return 사람들.get(번호 - 1);
+        return 사람들.get(번호-1);
     }
 }
 
@@ -77,5 +82,3 @@ class 사람 {
         System.out.printf("저는 %d번, %s, %d살 입니다.\n", this.번호, this.이름, this.나이);
     }
 }
-
-
