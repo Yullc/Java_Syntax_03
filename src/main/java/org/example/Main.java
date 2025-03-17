@@ -1,31 +1,31 @@
 package org.example;
-
-import java.util.HashMap;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
 
-        int a =0;
+        int d;
+        int e;
 
-        while (true){
-            System.out.println("숫자 : ");
-            try {
-                a = sc.nextInt(); // 대기 숫자 입력 할 때까지
-                sc.nextLine();// 버퍼를 비운다
-                break;
-            }catch (InputMismatchException e){
-                sc.nextLine();
-                System.out.println("숫자 똑바로 써");
+        for (int i = 0; i < c; i++) {
+            if (b < 60) {
+                b++;
 
             }
+
+            else if (b+c>=60){
+              d= b/60;
+              e=b%60;
+              for(int j=0; j<=e; j++){
+                  b++;
+              }
+              a+=d;
+            }
         }
-        System.out.printf("입력된 숫자: %d\n", a);
-
-        sc.close();
-    }
+        System.out.println(a+" "+b);
+        }
 }
-
-
