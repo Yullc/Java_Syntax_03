@@ -5,19 +5,14 @@
 //public class  test {
 //    public static void main(String[] args) {
 //        Solution s = new Solution();
-//        System.out.println(s.solution("hello",3));
+//        System.out.println(s.solution();
 //    }
 //
 //
 //}
 //class Solution {
-//    public String solution(String my_string, int n) {
-//        String answer = "";
-//        String [] arr = {my_string};
-//        for(int i=n; i<=arr.length;){
-//            answer = arr[i];
-//            System.out.println(answer);
-//        }
+//    public int[] solution(int[] numbers, int num1, int num2) {
+//        int[] answer = {};
 //        return answer;
 //    }
 //}
