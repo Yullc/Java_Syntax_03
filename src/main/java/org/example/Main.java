@@ -1,84 +1,31 @@
 package org.example;
-// 문제 : 아래가 실행되도록 해주세요.
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.InputMismatchException;
+import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
-        사람인력관리소 a사람인력관리소 = new 사람인력관리소();
+        Scanner sc = new Scanner(System.in);
 
-        a사람인력관리소.add사람("홍길순", 33);
-        // 나이가 33살인 1번째 사람(홍길순)이 추가되었습니다.
-        a사람인력관리소.add사람("홍길동", 20);
-        // 나이가 20살인 2번째 사람(홍길동)이 추가되었습니다.
-        a사람인력관리소.add사람("임꺽정", 30);
-        // 나이가 30살인 3번째 사람(임꺽정)이 추가되었습니다.
-        a사람인력관리소.add사람("임꺽정22", 32);
-        // 나이가 32살인 4번째 사람(임꺽정22)이 추가되었습니다.
-        a사람인력관리소.add사람("임꺽정33", 35);
-        // 나이가 35살인 5번째 사람(임꺽정33)이 추가되었습니다.
+        int a =0;
 
-        사람 a사람1 = a사람인력관리소.get사람(1);
-        a사람1.자기소개();
-        // 저는 1번, 홍길순, 33살 입니다.
+        while (true){
+            System.out.println("숫자 : ");
+            try {
+                a = sc.nextInt(); // 대기 숫자 입력 할 때까지
+                sc.nextLine();// 버퍼를 비운다
+                break;
+            }catch (InputMismatchException e){
+                sc.nextLine();
+                System.out.println("숫자 똑바로 써");
 
-        사람 a사람2 = a사람인력관리소.get사람(2);
-        a사람2.자기소개();
-        // 저는 2번, 홍길동, 20살 입니다.
+            }
+        }
+        System.out.printf("입력된 숫자: %d\n", a);
 
-        사람 a사람3 = a사람인력관리소.get사람(3);
-        a사람3.자기소개();
-        // 저는 3번, 임꺽정, 30살 입니다.
-
-        사람 a사람4 = a사람인력관리소.get사람(4);
-        a사람4.자기소개();
-        // 저는 4번, 임꺽정22, 32살 입니다.
-
-        사람 a사람5 = a사람인력관리소.get사람(5);
-        a사람5.자기소개();
-        // 저는 5번, 임꺽정33, 35살 입니다.
+        sc.close();
     }
 }
 
-class 사람인력관리소 {
-    // 변수 여러개
-    //    사람[] 사람들 = new 사람[5];
-    List<사람> 사람들 = new ArrayList<>();
- //   Map 사람들 = new HashMap<>();
 
-    int 마지막_사람의_번호 = 0;
-
-    void add사람(String 이름, int 나이) {
-        int 번호 = 마지막_사람의_번호 + 1;
-        사람 a사람 = new 사람();
-        a사람.번호 = 번호;
-        a사람.이름 = 이름;
-        a사람.나이 = 나이;
-
-//        사람들[번호 - 1] = a사람;
-//        사람들.add(a사람);
-        사람들.add(번호, a사람);
-
-        System.out.printf("나이가 %d살인 %d번째 사람(%s)이 추가되었습니다.\n", 나이, 번호, 이름);
-        마지막_사람의_번호++;
-    }
-
-    사람 get사람(int 번호) {
-//        return 사람들[번호 - 1];
-//        return 사람들.get(번호 - 1);
-        return 사람들.get(번호-1);
-    }
-}
-
-class 사람 {
-    int 번호;
-    String 이름;
-    int 나이;
-
-    void 자기소개() {
-        System.out.printf("저는 %d번, %s, %d살 입니다.\n", this.번호, this.이름, this.나이);
-    }
-}
