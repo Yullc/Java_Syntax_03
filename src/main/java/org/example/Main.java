@@ -1,31 +1,49 @@
 package org.example;
+
 import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int c = sc.nextInt();
 
-        int d;
-        int e;
+        String[] input = sc.nextLine().split("");
 
-        for (int i = 0; i < c; i++) {
-            if (b < 60) {
-                b++;
+        long a = Long.parseLong(input[0]);
+        long b = Long.parseLong(input[0]);
+        long c = Long.parseLong(input[0]);
 
-            }
-
-            else if (b+c>=60){
-              d= b/60;
-              e=b%60;
-              for(int j=0; j<=e; j++){
-                  b++;
-              }
-              a+=d;
-            }
-        }
-        System.out.println(a+" "+b);
-        }
+        System.out.println(a+b+c);
+    }
 }
+
+
+//Scanner sc = new Scanner(System.in);
+//        int time = sc.nextInt();
+//        int minute = sc.nextInt();
+//        int plus = sc.nextInt();
+//
+//        int time1;
+//        int minute1;
+//
+//        if (minute+plus < 60) {
+//            minute1= minute+plus;
+//
+//            System.out.println(minute1+"minute1");
+//        }
+//        else if (minute+plus>=60){
+//
+//            time1= (minute+plus)/60;
+//            minute1=(minute+plus)%60;
+//
+//            time+=time1;
+//            minute+=minute1;
+//
+//            System.out.println(time+"time");
+//            System.out.println(minute+"minute");
+//            if(minute==60){
+//                minute=0;
+//                time++;
+//            }
+//        }
+//
+//        System.out.println(time+" "+minute);
