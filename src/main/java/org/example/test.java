@@ -1,18 +1,15 @@
 //package org.example;
 //
-//import java.util.Arrays;
+//import java.util.Scanner;
 //
-//public class  test {
-//    public static void main(String[] args) {
-//        Solution s = new Solution();
-//        System.out.println(s.solution();
+//public class test {
+//    public static void main(String[] args)
+//    Scanner sc = new Scanner(System.in);
+//    int count = sc.nextInt();
+//    String[] input = sc.nextLine().split("");
+//
+//        for(int i =1; i<=count; i++){
+//
 //    }
 //
-//
-//}
-//class Solution {
-//    public int[] solution(int[] numbers, int num1, int num2) {
-//        int[] answer = {};
-//        return answer;
-//    }
 //}
